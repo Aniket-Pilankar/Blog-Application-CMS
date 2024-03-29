@@ -1,7 +1,5 @@
 import React from "react";
 
-import { FaBlog } from "react-icons/fa6";
-
 import Link from "next/link";
 import { Navbar, NavbarBrand } from "flowbite-react";
 import Image from "next/image";
