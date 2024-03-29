@@ -3,9 +3,10 @@ import Categories from "@/components/shared/Categories";
 import { getBlogCategories, getCategoryBlogPost } from "@/graphql";
 import React from "react";
 
+export const revalidate = 30;
+
 export async function generateStaticParams() {
   const catergories = await getBlogCategories();
-  console.log("catergories:", catergories);
 
   return catergories.map((category) => ({
     slug: category.slug,
