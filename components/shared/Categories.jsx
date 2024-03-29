@@ -17,7 +17,7 @@ const Categories = async () => {
       <div className="flow-root">
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {categories.map((category) => (
-            <Link key={category.slug} href={category.slug}>
+            <Link key={category.slug} href={`/category/${category.slug}`}>
               <li className="py-3 sm:py-4">
                 <p className="truncate text-sm font-medium text-gray-900 dark:text-white">
                   {category.name}
