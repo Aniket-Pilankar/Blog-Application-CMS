@@ -10,10 +10,18 @@ head,
 body {
   padding: 0;
   margin: 0;
-  width: 100vw;
+}
+
+body:before {
+  content: "";
+  width: 100%;
   height: 100vh;
   background-image: url("../public/assets/images/pexels-stephan-seeber.jpg");
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
 }

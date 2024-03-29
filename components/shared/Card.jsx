@@ -1,9 +1,10 @@
 import { Avatar, Button, Card } from "flowbite-react";
 import moment from "moment";
+import Link from "next/link";
 
 export default function Component({ blog }) {
   return (
-    <Card className="max-w-sm" imgSrc={blog.displayImage.url} horizontal>
+    <Card className="max-w-2xl mb-10" imgSrc={blog.displayImage.url} horizontal>
       <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
         {blog.title}
       </h5>
@@ -18,7 +19,7 @@ export default function Component({ blog }) {
           </div>
         </div>
       </Avatar>
-      <Button>
+      <Button as={Link} href={`/post/${blog.slug}`}>
         Read more
         <svg
           className="-mr-1 ml-2 h-4 w-4"
