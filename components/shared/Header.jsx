@@ -16,11 +16,12 @@ const Header = () => {
             width={25}
             height={25}
           />
-          <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white text-white">
+          <span className="self-center whitespace-nowrap text-3xl font-semibold dark:text-white text-white">
             Blog App CMS
           </span>
         </NavbarBrand>
       </Navbar>
+      <hr class="h-px  bg-gray-200 border-0 dark:bg-gray-700"></hr>
     </div>
   );
 };

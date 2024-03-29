@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Categories = async () => {
   const categories = await getBlogCategories();
-  console.log("categories:", categories);
+
   return (
     <Card className="max-w-sm">
       <div className="mb-4 flex items-center justify-between">

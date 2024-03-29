@@ -34,7 +34,6 @@ export const getBlogs = async () => {
   `;
 
   const result = await request(graphqlAPI, query);
-  console.log("result:", result);
 
   return result.postsConnection.edges || [];
 };
@@ -55,7 +54,6 @@ export const getBlogCategories = async () => {
 };
 
 export const getBlogDetails = async (slug) => {
-  console.log("slug:12321", slug);
   const query = gql`
     query MyQuery($slug: String!) {
       post(where: { slug: $slug }) {

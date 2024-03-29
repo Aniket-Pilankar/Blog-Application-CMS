@@ -5,7 +5,6 @@ import Image from "next/image";
 import React from "react";
 
 const BlogDetail = ({ blog }) => {
-  console.log("blog:", blog);
   return (
     <div>
       <Card

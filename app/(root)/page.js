@@ -4,7 +4,6 @@ import { getBlogs } from "@/graphql";
 
 export default async function Home() {
   const blogs = await getBlogs();
-  console.log("blogs:", blogs);
 
   return (
     <div className="container mx-auto px-10 mb-8">
