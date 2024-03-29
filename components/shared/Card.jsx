@@ -19,7 +19,7 @@ export default function Component({ blog }) {
           </div>
         </div>
       </Avatar>
-      <Button as={Link} href={`/post/${blog.slug}`}>
+      <Button as={Link} href={`/blog/${blog.slug}`}>
         Read more
         <svg
           className="-mr-1 ml-2 h-4 w-4"

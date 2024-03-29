@@ -53,3 +53,39 @@ export const getBlogCategories = async () => {
 
   return result.categories;
 };
+
+export const getBlogDetails = async (slug) => {
+  console.log("slug:12321", slug);
+  const query = gql`
+    query MyQuery($slug: String!) {
+      post(where: { slug: $slug }) {
+        title
+        slug
+        description
+        displayImage {
+          url
+        }
+        author {
+          name
+          bio
+          photo {
+            url
+          }
+        }
+        createdAt
+        slug
+        content {
+          raw
+        }
+        categories {
+          name
+          slug
+        }
+      }
+    }
+  `;
+
+  const result = await request(graphqlAPI, query, { slug });
+
+  return result.post;
+};
