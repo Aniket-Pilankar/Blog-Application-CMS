@@ -1,7 +1,16 @@
 import CardComp from "@/components/shared/Card";
 import Categories from "@/components/shared/Categories";
-import { getCategoryBlogPost } from "@/graphql";
+import { getBlogCategories, getCategoryBlogPost } from "@/graphql";
 import React from "react";
+
+export async function generateStaticParams() {
+  const catergories = await getBlogCategories();
+  console.log("catergories:", catergories);
+
+  return catergories.map((category) => ({
+    slug: category.slug,
+  }));
+}
 
 const CategoryPage = async ({ params: { slug } }) => {
   const categoryBlogPost = await getCategoryBlogPost(slug);
