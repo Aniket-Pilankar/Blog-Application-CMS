@@ -38,3 +38,18 @@ export const getBlogs = async () => {
 
   return result.postsConnection.edges || [];
 };
+
+export const getBlogCategories = async () => {
+  const query = gql`
+    query GetGategories {
+      categories {
+        name
+        slug
+      }
+    }
+  `;
+
+  const result = await request(graphqlAPI, query);
+
+  return result.categories;
+};
