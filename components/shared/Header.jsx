@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <div className="container mx-auto px-10 mb-8">
       <Navbar fluid rounded className="bg-tra">
-        <NavbarBrand as={Link} href="https://flowbite-react.com">
+        <NavbarBrand as={Link} href="/">
           <Image
             src="/assets/icons/blog.svg"
             className="mr-3 h-6 sm:h-9"
