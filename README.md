@@ -77,3 +77,26 @@ The project is already deployed on Vercel (Click below link)
 ### Home page (Ipad Responsive Page)
 ![Home Page](https://github.com/Aniket-Pilankar/Blog-Application-CMS/blob/main/public/assets/images/Screenshot%202024-03-30%20at%205.48.27%20AM.png)
 ![Home Page](https://github.com/Aniket-Pilankar/Blog-Application-CMS/blob/main/public/assets/images/Screenshot%202024-03-30%20at%205.48.42%20AM.png)
+
+
+## Functionality overview
+
+1. **Functionality Overview:** Blog App CMS is a Next.js-based blog website, chosen for its ideal framework for creating blog websites with built-in pre-rendering for SEO optimization and faster site loading.
+
+2. **Content Management:** Authorized users can create, edit, and publish blog posts using HygraphCMS. Users can view these published posts on the website.
+
+3. **Responsive Design:** The Blog App CMS website is built using responsive design, ensuring compatibility with all screen sizes.
+
+4. **Category Feature:** Users can read blogs from the homepage and can also filter blog posts by category (e.g., web development, music). Categories are added when an authorized user publishes a blog, and all available categories are listed on the Blog App CMS page.
+
+5. **Blog Details Page:** Clicking on a blog post directs users to the Blog-details page, providing a detailed view of the blog post.
+
+6. **Rich Text Editing:** Authorized users can format text to bold, italic, embed video iframes from YouTube, add code snippets, and tables in the blog posts.
+
+7. **Efficient Data Fetching:** With GraphQL, you can fetch only the data you need for a particular view, reducing over-fetching and improving performance.
+
+## Tech Stack
+
+**Client:** NextJS (React framework), TailwindCSS, Graphql, graphql-request, flowbite-react
+
+**Server:** HygraphCMS (GraphCMS)
