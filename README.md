@@ -56,12 +56,24 @@ The project is already deployed on Vercel (Click below link)
 
 ## Screenshots
 
+### Home page 
 ![Home Page](https://github.com/Aniket-Pilankar/Blog-Application-CMS/blob/main/public/assets/images/Screenshot%202024-03-30%20at%205.38.41%20AM.png)
 
+### Category page 
+![Category Page](https://github.com/Aniket-Pilankar/Blog-Application-CMS/blob/main/public/assets/images/Screenshot%202024-03-30%20at%205.39.02%20AM.png)
 
-## Tech Stack
+### Blog Details page 
+![Blog Details Page](https://github.com/Aniket-Pilankar/Blog-Application-CMS/blob/main/public/assets/images/Screenshot%202024-03-30%20at%205.39.27%20AM.png)
+![Blog Details Page](https://github.com/Aniket-Pilankar/Blog-Application-CMS/blob/main/public/assets/images/Screenshot%202024-03-30%20at%205.40.11%20AM.png)
 
-**Client:** NextJS (React framework), TailwindCSS, Graphql, graphql-request, flowbite-react
 
-**Server:** HygraphCMS (GraphCMS)
+### HygraphCMS (GraphCMS) page (create, edit, and publish blog)
+![Hygraph(GraphCMS) Page](https://github.com/Aniket-Pilankar/Blog-Application-CMS/blob/main/public/assets/images/Screenshot%202024-03-30%20at%205.40.49%20AM.png)
 
+### Home page (Mobile Responsive Page)
+![Home Page](https://github.com/Aniket-Pilankar/Blog-Application-CMS/blob/main/public/assets/images/Screenshot%202024-03-30%20at%205.47.49%20AM.png)
+![Home Page](https://github.com/Aniket-Pilankar/Blog-Application-CMS/blob/main/public/assets/images/Screenshot%202024-03-30%20at%205.48.01%20AM.png)
+
+### Home page (Ipad Responsive Page)
+![Home Page](https://github.com/Aniket-Pilankar/Blog-Application-CMS/blob/main/public/assets/images/Screenshot%202024-03-30%20at%205.48.27%20AM.png)
+![Home Page](https://github.com/Aniket-Pilankar/Blog-Application-CMS/blob/main/public/assets/images/Screenshot%202024-03-30%20at%205.48.42%20AM.png)
