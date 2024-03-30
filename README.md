@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Blog Application with Content Management System (CMS):
 
-First, run the development server:
+ADevelop a blog application with a NextJS for users to view posts and a Hygraph CMS(GraphCMS) interface for authorized users to create, edit, and publish blog posts.
+
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env.local file after cloning the project and going to the project directory
+
+`NEXT_PUBLIC_HYGRAPH_URL=https://api-ap-south-1.hygraph.com/v2/cluc7zdy5098v07weub3e9q0h/master`
+
+
+## Installation instructions
+
+Clone the project
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  git clone https://github.com/Aniket-Pilankar/Blog-Application-CMS.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Go to the project directory
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+  cd Blog-Application-CMS
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Install dependencies
 
-## Learn More
+```bash
+  npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+Start Next.js in development mode (option 1)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+  npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+OR
 
-## Deploy on Vercel
+Start Next.js in production mode (option 2)
+```bash
+  npm run build
+  npm start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Deployment
+
+The project is already deployed on Vercel (Click below link)
+
+[Live Project](https://blog-application-cms.vercel.app/)
+
+
+## Screenshots
+
+![Home Page](https://github.com/Aniket-Pilankar/Blog-Application-CMS/blob/main/public/assets/images/Screenshot%202024-03-30%20at%205.38.41%20AM.png)
+
+
+## Tech Stack
+
+**Client:** NextJS (React framework), TailwindCSS, Graphql, graphql-request, flowbite-react
+
+**Server:** HygraphCMS (GraphCMS)
+
