@@ -1,7 +1,7 @@
 
 # Blog Application with Content Management System (CMS):
 
-ADevelop a blog application with a NextJS for users to view posts and a Hygraph CMS(GraphCMS) interface for authorized users to create, edit, and publish blog posts.
+Develop a blog application with a NextJS for users to view posts and a Hygraph CMS(GraphCMS) interface for authorized users to create, edit, and publish blog posts.
 
 
 ## Environment Variables
